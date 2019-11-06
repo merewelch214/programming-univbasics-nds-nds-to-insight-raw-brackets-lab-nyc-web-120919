@@ -11,8 +11,8 @@ def directors_totals(nds)
     column_item = 0 
     
     while column_item < directors_database[row_index][:movies].length do
-      if column_item 
-        gross += directors_database[row_index][:movies][column_item]
+      
+        gross += directors_database[row_index][:movies][column_item][:worldwide_gross]  
      
      column_item += 1
     
