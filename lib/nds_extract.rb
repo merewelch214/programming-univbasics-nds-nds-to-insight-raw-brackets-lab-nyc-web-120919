@@ -3,11 +3,10 @@ require 'directors_database'
 
 def directors_totals(nds)
   row_index = 0 
-  dir_gross = 0
   dir_hash = {}
   
   while row_index < directors_database.length do
-    
+    dir_gross = 0
     column_item = 0 
     
     while column_item < directors_database[row_index][:movies].length do
