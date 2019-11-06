@@ -3,7 +3,7 @@ require 'directors_database'
 
 def directors_totals(nds)
   row_index = 0 
-  gross = 0
+  dir_gross = 0
   dir_hash = {}
   
   while row_index < directors_database.length do
