@@ -5,7 +5,7 @@ require 'pp'
 puts pp('directors_database')
 
 def directors_totals(nds)
-  puts directors_database[0]
+  puts directors_database[0][:movies][:worldwide_gross]
   # row_index = 0 
   # gross = 0
   # dir_hash = {}
