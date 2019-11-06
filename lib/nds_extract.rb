@@ -19,7 +19,7 @@ def directors_totals(nds)
     end
 
     puts dir_hash = {directors_database[row_index][:name] => dir_gross}
-    puts new_hash = final_hash.merge(dir_hash)
+    puts final_hash = final_hash.merge(dir_hash)
     puts row_index += 1
   end
 
