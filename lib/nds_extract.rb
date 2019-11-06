@@ -21,7 +21,7 @@ def directors_totals(nds)
     puts dir_hash
     row_index += 1
   end
-  return dir_hash
+  #return dir_hash
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
