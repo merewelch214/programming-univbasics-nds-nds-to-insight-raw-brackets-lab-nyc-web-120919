@@ -13,17 +13,17 @@ def directors_totals(nds)
     while column_item < directors_database[row_index][:movies].length do
       
         dir_gross += directors_database[row_index][:movies][column_item][:worldwide_gross]  
-     
+        puts "At director index #{row_index} in the movies hash at index #{column_item} the worldwide_gross is  #{directors_database[row_index][:movies][column_item][:worldwide_gross]}"
      column_item += 1
     
     end
     dir_hash = {directors_database[row_index] => dir_gross}
     row_index += 1
-    gross = 0
+    dir_gross = 0
   
   end
-  
-  return dir_hash 
+  puts dir_gross
+  puts dir_hash
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
