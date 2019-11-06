@@ -12,7 +12,7 @@ def directors_totals(nds)
     
     while column_item < directors_database[row_index].length do
      
-     gross += directors_database[row_index][:gross]
+     gross += directors_database[row_index][:worldwide_gross]
      column_item += 1
     
     end
