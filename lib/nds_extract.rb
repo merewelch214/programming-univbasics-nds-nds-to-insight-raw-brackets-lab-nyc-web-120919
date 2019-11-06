@@ -4,6 +4,7 @@ require 'directors_database'
 def directors_totals(nds)
   row_index = 0 
   dir_hash = {}
+  final_hash = {}
   
   while row_index < directors_database.length do
     dir_gross = 0
@@ -18,8 +19,8 @@ def directors_totals(nds)
     end
 
     dir_hash = {directors_database[row_index][:name] => dir_gross}
-    final_hash += dir_hash
     row_index += 1
+    final_hash.merge(dir_hash)
   end
   puts dir_hash
   #return dir_hash
