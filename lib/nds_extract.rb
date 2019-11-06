@@ -19,7 +19,7 @@ def directors_totals(nds)
 
     dir_hash = {directors_database[row_index][:name] => dir_gross}
     row_index += 1
-  
+    puts dir_gross  
   end
   return dir_hash
   # Remember, it's always OK to pretty print what you get *in* to make sure
