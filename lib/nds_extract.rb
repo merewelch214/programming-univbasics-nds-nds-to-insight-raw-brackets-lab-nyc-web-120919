@@ -18,12 +18,12 @@ def directors_totals(nds)
     
     end
 
-    dir_hash = {directors_database[row_index][:name] => dir_gross}
-    new_hash = final_hash.merge(dir_hash)
-    row_index += 1
+    puts dir_hash = {directors_database[row_index][:name] => dir_gross}
+    puts new_hash = final_hash.merge(dir_hash)
+    puts row_index += 1
   end
 
-  return new_hash
+  #return new_hash
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
