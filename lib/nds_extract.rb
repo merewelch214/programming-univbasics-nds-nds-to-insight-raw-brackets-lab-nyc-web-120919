@@ -17,7 +17,6 @@ def directors_totals(nds)
      column_item += 1
     
     end
-    
     dir_hash = {directors_database[row_index] => gross}
     row_index += 1
     gross = 0
