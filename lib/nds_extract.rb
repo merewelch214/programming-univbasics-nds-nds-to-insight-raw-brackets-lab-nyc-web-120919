@@ -12,12 +12,12 @@ def directors_totals(nds)
     
     while column_item < directors_database[row_index][:movies].length do
       
-        gross += directors_database[row_index][:movies][column_item][:worldwide_gross]  
+        dir_gross += directors_database[row_index][:movies][column_item][:worldwide_gross]  
      
      column_item += 1
     
     end
-    dir_hash = {directors_database[row_index] => gross}
+    dir_hash = {directors_database[row_index] => dir_gross}
     row_index += 1
     gross = 0
   
