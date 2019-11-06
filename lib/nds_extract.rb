@@ -17,6 +17,7 @@ def directors_totals(nds)
     
     end
     puts directors_database[row_index][:name]
+    puts dir_gross
     dir_hash = {directors_database[row_index][:name] => dir_gross}
     row_index += 1
   
