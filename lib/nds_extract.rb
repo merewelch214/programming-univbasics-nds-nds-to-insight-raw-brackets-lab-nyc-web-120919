@@ -22,7 +22,7 @@ def directors_totals(nds)
     row_index += 1
     final_hash.merge(dir_hash)
   end
-  puts dir_hash
+  puts final_hash
   #return dir_hash
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
